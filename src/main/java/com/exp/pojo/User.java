@@ -42,7 +42,7 @@ public class User {
     private String deptId;   //部门id
     @Excel(name = "出生日期",orderNum = "7" ,width = 10,format = "yyyy-MM-dd",isImportField = "true")
     private Date birthday; //出生日期
-    @Excel(name = "照片",orderNum = "8" ,width = 10,type =2 ,isImportField = "true",savePath ="D:\\java_report\\workspace\\user_management\\src\\main\\resources\\static\\user_photos\\" )
+    @Excel(name = "照片",orderNum = "8" ,width = 10,type =2 ,isImportField = "true",savePath ="C:\\Users\\1\\Desktop\\1\\user_management\\src\\main\\resources\\static\\user_photos\\" )
     private String photo;    //一寸照片
     @Excel(name = "现住址",orderNum = "7" ,width = 20,isImportField = "true")
     private String address;  //现在居住地址
